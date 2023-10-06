@@ -1,0 +1,20 @@
+    1  unzip week1data.zip
+    2  rm week1data.zip
+    3  cat data1
+    4  cat data1.txt
+    5  cat data2.txt
+    6  cat data1.txt data2.txt
+    7  cat *.txt
+    8  grep "Beatles".txt
+    9  grep "Beatles"*.txt
+   10  grep "Beatles" *.txt
+   11  grep "Eagles" *.txt
+   12  grep "Beatles" *.txt | cut -d "," -f 3
+   13  grep "Beatles" *.txt | cut -d "," -f 3,2
+   14  grep "Beatles" *.txt | cut -d "," -f 3,2 | sort
+   15  grep "Beatles" *.txt | cut -d "," -f 3 | sort > "beatles.txt"
+   16  cat beatles.txt
+   17  cat data*.txt
+   18  cat data*.txt | head -n 17
+   19  cat data*.txt | head -n 17 | tail -n 1
+   20  history > notes.txt
