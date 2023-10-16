@@ -1,0 +1,85 @@
+    1  unzip week1data.zip
+    2  rm week1data.zip
+    3  cat data1
+    4  cat data1.txt
+    5  cat data2.txt
+    6  cat data1.txt data2.txt
+    7  cat *.txt
+    8  grep "Beatles".txt
+    9  grep "Beatles"*.txt
+   10  grep "Beatles" *.txt
+   11  grep "Eagles" *.txt
+   12  grep "Beatles" *.txt | cut -d "," -f 3
+   13  grep "Beatles" *.txt | cut -d "," -f 3,2
+   14  grep "Beatles" *.txt | cut -d "," -f 3,2 | sort
+   15  grep "Beatles" *.txt | cut -d "," -f 3 | sort > "beatles.txt"
+   16  cat beatles.txt
+   17  cat data*.txt
+   18  cat data*.txt | head -n 17
+   19  cat data*.txt | head -n 17 | tail -n 1
+   20  history > notes.txt
+   21  cat data1.txt
+   22  cat data2.txt
+   23  grep "42" *.txt
+   24  grep "Eminem" *.txt
+   25  grep "1992" *.txt
+   26  grep "Pink Floyd" *.txt
+   27  grep "Pink Floyd" *.txt | cut -d "," -f 4
+   28  grep "Eminem" *.txt | cut -d "," -f 3
+   29  grep "Eminem" *.txt
+   30  man sort
+   31  grep "197" *.txt | sort 
+   32  grep "197" *.txt | cut -d "," -f 2 | sort 
+   33  grep "200" *.txt | cut -d "," f -3 > "naughties.txt"
+   34  grep "200" *.txt | cut -d "," -f 3 > "naughties.txt"
+   35  man sort
+   36  cat data*.txt | sort
+   37  ls
+   38  pwd
+   39  echo "hi" > naughties.txt
+   40  grep "200" *.txt | cut -d "," -f 3 > "naughties.txt"
+   41  cat data*.txt
+   42  man sort
+   43  cat data*.txt | cut -d "," -f 4 | sort -n
+   44  cat data*.txt | cut -d "," -f 4 | sort -n | head -n 42
+   45  cat data*.txt | cut -d "," -f 4 | sort -n 
+   46  cat data*.txt | cut -d "," -f 4 | sort 
+   47  mkdir session1
+   48  mv * session1/
+   49  tar -zxvf shell.tar.gz
+   50  pwd
+   51  mkdir session2
+   52  mv data session2/
+   53  mv IOM-animals session2/
+   54  mv wildcards session2/
+   55  mv shell.tar.gz session2/
+   56  mv some-maths.txt session2/
+   57  cd session2
+   58  pwd
+   59  mkdir work
+   60  cd work/
+   61  mkdir input_data
+   62  mkdir results/
+   63  mkdir program
+   64  pwd
+   65  man cp
+   66  echo "this is some beautiful text!" > input.txt
+   67  pwd
+   68  cat input.txt > .input_data/
+   69  cat input.txt > .input_data/control01.txt
+   70  cat input.txt > ..input_data/control01.txt
+   71  cat input.txt > input_data/control01.txt
+   72  rmdir work
+   73  man rm
+   74  man rmdir
+   75  rmdir work -f
+   76  rmdir --help
+   77  cd IOM-animals/
+   78  cd .IOM-animals/
+   79  pwd
+   80  cd ..IOM-animals/
+   81  git add
+   82  git add -A
+   83  git commit -m "friday"
+   84  git push
+   85  history > "notes2.txt"
